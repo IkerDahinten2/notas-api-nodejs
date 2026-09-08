@@ -1,0 +1,27 @@
+{
+  "name": "notas-api-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IkerDahinten2/notas-api-nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/IkerDahinten2/notas-api-nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IkerDahinten2/notas-api-nodejs.git"
+  },
+  "license": "ISC",
+  "author": "IkerDahinten2",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.9.5"
+  }
+}
