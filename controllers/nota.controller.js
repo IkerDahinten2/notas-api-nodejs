@@ -17,7 +17,7 @@ export async function listarNotas(req, res, next){ // GET de tda la coleccion
     }catch (error) { next(error); }
 }
 
-export async function obtenernota(req, res, next){ // GET de una sola nota
+export async function obtenerNota(req, res, next){ // GET de una sola nota
     try{
         const nota = await notaSercive.buscarPorId(req.params.id); // Lee: id de la URL
         if (!nota) return res.status(404).json({ error: 'Nota no encontrada'}); // Maneja ausencia
